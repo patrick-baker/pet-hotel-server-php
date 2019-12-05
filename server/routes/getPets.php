@@ -1,6 +1,7 @@
 <?php
 
-require_once 'config.php';
+require '../../config.php';
+
 
 $result = pg_query($dbconn, "SELECT * FROM pets");
 if (!$result) {
@@ -8,10 +9,7 @@ if (!$result) {
     exit;
 }
 
-$arr = pg_fetch_all($result);
-
-echo "<pre>";
-print_r($arr);
-echo "</pre>";
+$array = pg_fetch_all($result);
+echo json_encode($array)."\n";
 
 ?>

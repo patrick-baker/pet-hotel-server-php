@@ -8,9 +8,4 @@ $dbconn = pg_connect($connStr);
    } else {
       echo "Opened database successfully\n";
    }
-
-$result = pg_query($dbconn, `select * from "owners"`);
-
-var_dump(pg_fetch_all($result));
-
 ?>
