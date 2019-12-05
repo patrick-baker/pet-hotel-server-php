@@ -3,7 +3,7 @@
 require '../../config.php';
 
 
-$result = pg_query($dbconn, "SELECT * FROM pets");
+$result = pg_query($dbconn, "SELECT * FROM owners");
 if (!$result) {
     echo "An error occurred.\n";
     exit;
