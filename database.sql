@@ -7,11 +7,9 @@ CREATE TABLE owners (
 
 CREATE TABLE pets (
 "id" serial PRIMARY KEY,
-"owner_id" VARCHAR REFERENCES "owners"
+"owner_id" INTEGER REFERENCES "owners",
 "petname" VARCHAR,
 "breed" VARCHAR,
 "color" VARCHAR,
 "checked_in" BOOLEAN
 );
-
-
