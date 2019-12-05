@@ -53,11 +53,11 @@ You may run into proxy issues as you try to get axios to make requests to anothe
 
 #### Dashboard View
 
-![Add Entry Page](page-one.png)
+![Add Entry Page](wireframes/page-one.png)
 
 #### Manage Owners View
 
-![Add Entry Page](page-two.png)
+![Add Entry Page](wireframes/page-two.png)
 
 ### Database
 
