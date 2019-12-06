@@ -1,5 +1,6 @@
 <?php
 
+// imports $dbconn which is the database connection
 require '../../config.php';
 
 // does sql query (get pets)
